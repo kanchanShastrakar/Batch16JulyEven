@@ -18,6 +18,8 @@ public class BaseNew
 	    driver.manage().window().maximize();
 		driver.get(UtilityNew.readDataFromPropertyFile("url"));
 		Reporter.log("launching Browser", true);
+		
+		
 		Thread.sleep(1000);
 	}
 
